@@ -67,6 +67,10 @@ ul > li{
     background-image: url('/asset/image/footer-bg.png'),
     linear-gradient(rgba(0,0,0, 1),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .btn-service{
@@ -78,10 +82,10 @@ ul > li{
 .service-title{
     font-size: 40px;
     font-weight: 700;
+    margin-top: 20px;
 }
 .service-description{
     font-size: 20px;
-    width: 50%;
     padding: 10px;
 }
 .service-number{
@@ -123,4 +127,34 @@ ul > li{
     border-radius: 25px;
     font-size: 16px;
     color: orangered;
+}
+
+.service-up, .service-down{
+    display: flex;
+}
+
+.service-1, .service-2, .service-3, .service-4{
+    padding: 10px;
+    background-color: white;
+    /* box-shadow: 2px 2px 2px 2px gray; */
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.service-logo{
+    width: 120px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.service-left-container{
+    width: 50%;
+}
+.service-right-container{
+    width: 45%;
 }
